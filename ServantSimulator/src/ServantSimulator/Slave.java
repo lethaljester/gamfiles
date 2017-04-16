@@ -7,5 +7,13 @@ public class Slave {
 		race = new Race();
 	}
 	private Race race;
-	private int age, height, weight, beautyScore, sexScore;
+		private int ageInDays, height, weight, beautyScore, sexScore;
+	private String name;
+	
+	public String getName(){
+		return name;
+	}
+	public int getAge(){
+		return ageInDays/365;
+	}
 }
